@@ -1,0 +1,43 @@
+<범주형 관련>
+1. 긍정 (True,Yes =1),부정 (False,No=0)-- 'Has Chip', 'Is Fraud?'
+2. 일반적인 범주형은 고유값 나오는 순서대로 라벨 값 부여. (단, Erro Message 같은 경우엔 NaN값이 존재하기 때문에 라벨을 0을 에러 메세지가 없다는 것으로 하여 시작함.)
+    'Card Brand', 'Card Type','Error Message'
+
+Column 'Has Chip' Label Mapping:
+1: 'True'
+0: 'False'
+--------------------------------------------------
+Column 'Is Fraud?' Label Mapping:
+1: 'Yes'
+0: 'No'
+--------------------------------------------------
+Column 'Card Brand' Label Mapping:
+0: 'Visa'
+1: 'Mastercard'
+2: 'Others'
+--------------------------------------------------
+Column 'Card Type' Label Mapping:
+0: 'Debit'
+1: 'Credit'
+2: 'Debit (Prepaid)'
+--------------------------------------------------
+Column 'Error Message' Label Mapping:
+0: 'No Error'
+2: 'Insufficient Balance'
+3: 'Bad PIN'
+4: 'Technical Glitch'
+5: 'Bad Expiration'
+6: 'Bad CVV'
+7: 'Bad Card Number'
+8: 'Bad Card Number,Insufficient Balance'
+9: 'Bad Card Number,Bad CVV'
+10: 'Insufficient Balance,Technical Glitch'
+11: 'Bad Zipcode'
+12: 'Bad CVV,Insufficient Balance'
+13: 'Bad Card Number,Bad Expiration'
+14: 'Bad PIN,Technical Glitch'
+15: 'Bad PIN,Insufficient Balance'
+16: 'Bad Expiration,Insufficient Balance'
+17: 'Bad Card Number,Technical Glitch'
+18: 'Bad Expiration,Technical Glitch'
+19: 'Bad Expiration,Bad CVV'
